@@ -40,7 +40,7 @@ def create_page():
     print(page)
     if page:
         print('https://derekstoreapps.myshopify.com/admin/api/2022-07/pages.json'+str(page['id'])+'.json')
-        response = requests.put('https://derekstoreapps.myshopify.com/admin/api/2022-07/pages.json'+str(page['id'])+'.json', headers=headers, data=json.dumps({"page": {"body_html": "Test 9",}}))
+        response = requests.put('https://derekstoreapps.myshopify.com/admin/api/2022-07/pages'+str(page['id'])+'.json', headers=headers, data=json.dumps({"page": {"body_html": "This page was created by using the pagegen application",}}))
         print("updated")
     else:
         response = requests.post('https://derekstoreapps.myshopify.com/admin/api/2022-07/pages.json', headers=headers, data=json.dumps(data))
