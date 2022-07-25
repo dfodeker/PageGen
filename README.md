@@ -60,3 +60,4 @@ Known issues
 Py version of this app successfully creates page and checks if the page already exists but has issues updating page. Could not be fixed due time constraints. app runs with no errors and  
 Plan to fix issue
 * write unit tests to determine source of issue.
+*issue was fixed after writing this doc
