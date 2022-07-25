@@ -19,8 +19,8 @@ def create_page():
 
     data = {
         "page": {
-            "title": "New Page",
-            "body_html": "Test 9",
+            "title": "DerekFodekeRodgers",
+            "body_html": "This page was created by using the pagegen application",
         }
     }
 
