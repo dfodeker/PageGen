@@ -61,3 +61,7 @@ Py version of this app successfully creates page and checks if the page already 
 Plan to fix issue
 * write unit tests to determine source of issue.
 *issue was fixed after writing this doc
+*creating a updating a page might delete the previous content on the page
+
+
+![generated image](https://github.com/dfodeker/justvibes/blob/mvp/assets/Screen%20Shot%202022-07-25%20at%202.07.29%20AM.png?raw=true)
