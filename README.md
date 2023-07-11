@@ -64,4 +64,3 @@ Plan to fix issue
 *creating a updating a page might delete the previous content on the page
 
 
-![generated image](https://github.com/dfodeker/justvibes/blob/mvp/assets/Screen%20Shot%202022-07-25%20at%202.07.29%20AM.png?raw=true)
